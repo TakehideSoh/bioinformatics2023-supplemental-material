@@ -4,5 +4,5 @@
 
 ##  Benchmark
 
-- star
-- star_asp
+- [star](/benchmark/star)
+- [star_asp](/benchmark/star_asp)
