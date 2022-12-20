@@ -1,0 +1,21 @@
+automaton_level("A1", 0..1).
+automaton_level("A2", 0..1).
+automaton_level("A3", 0..1).
+automaton_level("A4", 0..1).
+automaton_level("A5", 0..1).
+automaton_level("A6", 0..1).
+automaton_level("A7", 0..1).
+condition(t1,"A1",0). target(t1,"A1",1). condition(t1, "A2",0). condition(t1, "A3",0). condition(t1, "A4",0). condition(t1, "A5",0). condition(t1, "A6",0). condition(t1, "A7",0). 
+condition(t2,"A2",0). target(t2,"A2",1). condition(t2, "A1",0). condition(t2, "A3",0). condition(t2, "A4",0). condition(t2, "A5",0). condition(t2, "A6",0). condition(t2, "A7",0). 
+condition(t3,"A3",0). target(t3,"A3",1). condition(t3, "A1",0). condition(t3, "A2",0). condition(t3, "A4",0). condition(t3, "A5",0). condition(t3, "A6",0). condition(t3, "A7",0). 
+condition(t4,"A4",0). target(t4,"A4",1). condition(t4, "A1",0). condition(t4, "A2",0). condition(t4, "A3",0). condition(t4, "A5",0). condition(t4, "A6",0). condition(t4, "A7",0). 
+condition(t5,"A5",0). target(t5,"A5",1). condition(t5, "A1",0). condition(t5, "A2",0). condition(t5, "A3",0). condition(t5, "A4",0). condition(t5, "A6",0). condition(t5, "A7",0). 
+condition(t6,"A6",0). target(t6,"A6",1). condition(t6, "A1",0). condition(t6, "A2",0). condition(t6, "A3",0). condition(t6, "A4",0). condition(t6, "A5",0). condition(t6, "A7",0). 
+condition(t7,"A7",0). target(t7,"A7",1). condition(t7, "A1",0). condition(t7, "A2",0). condition(t7, "A3",0). condition(t7, "A4",0). condition(t7, "A5",0). condition(t7, "A6",0). 
+condition(t8,"A1",1). target(t8,"A1",0). 
+condition(t9,"A2",1). target(t9,"A2",0). 
+condition(t10,"A3",1). target(t10,"A3",0). 
+condition(t11,"A4",1). target(t11,"A4",0). 
+condition(t12,"A5",1). target(t12,"A5",0). 
+condition(t13,"A6",1). target(t13,"A6",0). 
+condition(t14,"A7",1). target(t14,"A7",0). 
